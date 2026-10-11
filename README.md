@@ -18,6 +18,11 @@ If you prefer no activation step, use Web3Forms instead:
 2. Copy `.env.example` to `.env` and set `VITE_WEB3FORMS_KEY=your_key`.
 3. On Vercel/Netlify, add the same variable in the project's environment settings, then redeploy.
 
+`.env` files are excluded from Git; only the placeholder `.env.example` should be committed. Because this is a
+Vite frontend, `VITE_WEB3FORMS_KEY` is included in the browser bundle and is not a private secret. Restrict
+the key to your site using Web3Forms settings if available. Never put email passwords or other server secrets
+in a `VITE_` variable.
+
 ## Edit your content
 All text, links and projects are in `src/data.js`.
 
