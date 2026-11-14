@@ -97,7 +97,7 @@ export const projects = [
   kind: 'Restaurant Website',
   period: '2026',
   description:
-    'A modern, responsive restaurant website built with React and Vite, featuring interactive menu browsing, category-based filtering, search functionality, and seamless Zomato ordering integration. Enhanced with GSAP scroll animations, Framer Motion transitions, and a glassmorphism navigation UI.',
+    'A responsive restaurant website with interactive menus, smooth animations, and online ordering.',
   highlights: [
     'Interactive menu with category filters and search',
     'Smooth animations using GSAP and Framer Motion',
