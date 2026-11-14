@@ -92,6 +92,23 @@ export const projects = [
     live: 'https://coursecraft-ai.netlify.app/',
   },
   {
+  featured: true,
+  title: "Mandie's Restaurant Website",
+  kind: 'Restaurant Website',
+  period: '2026',
+  description:
+    'A modern, responsive restaurant website built with React and Vite, featuring interactive menu browsing, category-based filtering, search functionality, and seamless Zomato ordering integration. Enhanced with GSAP scroll animations, Framer Motion transitions, and a glassmorphism navigation UI.',
+  highlights: [
+    'Interactive menu with category filters and search',
+    'Smooth animations using GSAP and Framer Motion',
+    'Integrated Zomato ordering redirection',
+    'Responsive design with modern UI'
+  ],
+  tech: ['React', 'Vite', 'JavaScript', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
+  github: 'https://github.com/Pranavm103/mandies',
+  live: 'https://mandies-restaurant.vercel.app/',
+  },
+  {
     featured: true,
     title: 'Employee Management System',
     kind: 'Admin and employee dashboards',
